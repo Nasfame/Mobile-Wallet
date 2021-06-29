@@ -1,0 +1,9 @@
+transaction
+id   date     sender_id receiver_id amount
+int datetime  int        int        double(12,4)
+user
+id  username password balance
+int varchar(50) varchar(150) double(12,4)
+
+Relationship
+user -> transactions 1->many
